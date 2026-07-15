@@ -4,13 +4,14 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import AddVech from './components/AddVech'
+import ViewVech from './components/ViewVech'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    
+   
     </>
   )
 }
