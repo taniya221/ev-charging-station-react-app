@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import NavBar from './NavBar'
 
 const ViewVech = () => {
     const [data, changeData] = useState([])
@@ -19,7 +20,7 @@ const ViewVech = () => {
     )
   return (
     <div>
-
+          <NavBar />
         <div className="container">
 
     <div className="row">

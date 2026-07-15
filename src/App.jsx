@@ -14,8 +14,8 @@ function App() {
     <>
    <BrowserRouter>
    <Routes>
-    <Route path="/" elemnet={<AddVech />} />
-    <Route path="/view" elemnet={<ViewVech />} />
+    <Route path="/" element={<AddVech />} />
+    <Route path="/view" element={<ViewVech />} />
    </Routes>
    </BrowserRouter>
     </>
